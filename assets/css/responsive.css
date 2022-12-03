@@ -1,0 +1,164 @@
+/* // Small devices (landscap phones, 576px and up) */
+@media (max-width: 1200px){
+    #header{
+        overflow: hidden;
+    }
+    .navbar-expand-xl .navbar-nav{
+        position: relative;
+        top: 0px;
+        right: 160px;
+        width: 141%;
+        margin-top: 10px;
+    }
+    .navbar-expand-xl .navbar-nav .nav-item{
+        padding: 5px 0px;
+        border-top: 1px solid #363636;
+    }
+    .dropdown-menu{
+        position: relative!important;
+        top: 0px;
+    }
+    .navbar-dark .navbar-toggler{
+        position: relative!important;
+        top: 0px;
+        right: -729px;
+    }
+    .navbar-expand-xl .navbar-nav .dropdown-menu {
+        background-color: #000000;
+    }
+    .dropdown-menu a.dropdown-item{
+        color: #ffffff;
+    }
+
+}
+/* // Medium devices (tablets , 768px and up) */
+@media (max-width: 992px){
+    .navbar-expand-xl .navbar-nav{
+        position: relative;
+        top: 0px;
+        right: 120px;
+    }
+    .navbar-dark .navbar-toggler{
+        position: relative!important;
+        top: 0px;
+        right: -533px;
+    }
+}
+
+/* // Medium devices (tablets , 768px and up) */
+@media (max-width: 768px){
+    .navbar-expand-xl .navbar-nav{
+        position: relative;
+        top: 0px;
+        right: 180px;
+        width: 381%;
+    }
+    .navbar-dark .navbar-toggler {
+        position: relative!important;
+        top: 0px;
+        right: -359px;
+    }
+    .icon{
+        position: relative!important;
+        top: 6px;
+        left: -82px;
+    }
+    .guarantee, .support, .free-ship{
+        margin: 5px 0px;
+    }
+    form{
+        position: absolute;
+        top: -31px;
+        right: 130px;
+    }
+}
+@media (max-width: 576px){
+    .navbar-dark .navbar-toggler {
+        position: relative!important;
+        top: 0px;
+        right: -273px;
+    }
+    .product-new {
+        margin-top: 28px;
+        margin-bottom: 47px;
+    }
+    
+}
+@media (max-width: 564px){
+    .content-ads {
+        position: absolute!important;
+        top: 255px;
+        right: 35px;
+   
+    }
+    .content-clock{
+        position: absolute!important;
+        top: 138px;
+        right: 25px;
+    }
+    .content-clothes{
+        position: absolute!important;
+        top: 350px;
+        right: 25px;
+    }
+}
+@media (max-width: 564px){
+ .content-ads {
+        position: absolute!important;
+        top: 320px;
+        right: 35px;
+   
+    }
+    .content-clock{
+        position: absolute!important;
+        top: 148px;
+        right: 25px;
+    }
+    .content-clothes{
+        position: absolute!important;
+        top: 370px;
+        right: 25px;
+    }
+    
+}
+@media (min-width: 576px){
+    .navbar-dark .navbar-toggler {
+        position: relative!important;
+        top: 0px;
+        right: -310px;
+    }
+    .icon{
+        position: relative!important;
+        top: 6px;
+        left: -82px;
+    }
+}
+
+
+/* // Medium devices (tablets , 768px and up) */
+@media (min-width: 768px){
+    .navbar-dark .navbar-toggler {
+        position: relative!important;
+        top: 0px;
+        right: -532px;
+    }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px){
+    .navbar-dark .navbar-toggler {
+        position: relative!important;
+        top: 0px;
+        right: -733px;
+    }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px){
+    .icon{
+        position: relative!important;
+        top: 0px;
+        left: 0px;
+    }
+}
